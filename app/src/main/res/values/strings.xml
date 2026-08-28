@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KAIVO</string>
+    <string name="tagline">Your clipboard, organized.</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="paste_placeholder">Paste something here…</string>
+    <string name="btn_paste">Paste</string>
+    <string name="btn_save">Save</string>
+    <string name="search_placeholder">Search saved items…</string>
+
+    <string name="empty_history_title">Nothing saved yet</string>
+    <string name="empty_history_subtitle">Copy something, then tap Paste and Save.</string>
+    <string name="no_search_results">No matches found</string>
+
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="copied_toast">Copied to clipboard</string>
+    <string name="saved_toast">Saved</string>
+    <string name="pasted_empty_toast">Clipboard is empty</string>
+
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="persian">فارسی</string>
+    <string name="appearance">Appearance</string>
+    <string name="light_mode">Light</string>
+    <string name="dark_mode">Dark</string>
+    <string name="system_default">System</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_as_txt">Export as .txt</string>
+    <string name="export_as_json">Export as .json</string>
+    <string name="export_success">Export complete</string>
+    <string name="export_failed">Export failed</string>
+    <string name="export_empty">No items to export</string>
+    <string name="delete_all_data">Delete All Data</string>
+    <string name="delete_all_confirm_title">Delete all data?</string>
+    <string name="delete_all_confirm_body">This will permanently remove every saved clipboard item. This action cannot be undone.</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_all_confirm_action">Delete Everything</string>
+    <string name="about_kaivo">About KAIVO</string>
+    <string name="about_body">KAIVO is a minimal, private clipboard manager. It never monitors your clipboard in the background, never runs a background service, and never sends your data anywhere. Everything stays on this device.</string>
+    <string name="version">Version 1.0</string>
+    <string name="back">Back</string>
+    <string name="delete_item_confirm_title">Delete this item?</string>
+    <string name="delete_item_confirm_body">This saved clipboard item will be permanently removed.</string>
+</resources>
