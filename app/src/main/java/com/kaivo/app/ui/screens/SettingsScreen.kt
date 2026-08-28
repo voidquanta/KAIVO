@@ -52,6 +52,7 @@ import com.kaivo.app.util.ExportFormat
 import com.kaivo.app.util.ExportUtil
 import com.kaivo.app.viewmodel.SettingsViewModel
 import kotlinx.coroutines.launch
+import androidx.compose.foundation.layout.height
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
