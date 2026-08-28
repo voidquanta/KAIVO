@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.map
 private val Context.dataStore by preferencesDataStore(name = "kaivo_settings")
 
 enum class ThemeMode { LIGHT, DARK, SYSTEM }
-enum class AppLanguage(val tag: String) { ENGLISH("en"), PERSIAN("fa") }
+enum class AppLanguage(val tag: String) { ENGLISH("en") }
 
 class SettingsDataStore(private val context: Context) {
 
@@ -26,14 +26,7 @@ class SettingsDataStore(private val context: Context) {
     }
 
     val language: Flow<AppLanguage> = context.dataStore.data.map { prefs ->
-        when (prefs[languageKey]) {
-            AppLanguage.PERSIAN.tag -> AppLanguage.PERSIAN
-            else -> AppLanguage.ENGLISH
-        }
-    }
-
-    val onboardingSeen: Flow<Boolean> = context.dataStore.data.map { prefs ->
-        prefs[stringPreferencesKey("onboarding_seen")] == "true"
+        AppLanguage.ENGLISH
     }
 
     suspend fun setThemeMode(mode: ThemeMode) {
@@ -42,9 +35,5 @@ class SettingsDataStore(private val context: Context) {
 
     suspend fun setLanguage(language: AppLanguage) {
         context.dataStore.edit { it[languageKey] = language.tag }
-    }
-
-    suspend fun setOnboardingSeen() {
-        context.dataStore.edit { it[stringPreferencesKey("onboarding_seen")] = "true" }
     }
 }
