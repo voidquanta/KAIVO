@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KAIVO</string>
+    <string name="tagline">کلیپ‌بورد تو، منظم.</string>
+    <string name="get_started">شروع کنید</string>
+
+    <string name="paste_placeholder">چیزی را اینجا پیست کنید…</string>
+    <string name="btn_paste">پیست</string>
+    <string name="btn_save">ذخیره</string>
+    <string name="search_placeholder">جستجو در موارد ذخیره‌شده…</string>
+
+    <string name="empty_history_title">هنوز چیزی ذخیره نشده</string>
+    <string name="empty_history_subtitle">چیزی کپی کنید، سپس روی پیست و ذخیره بزنید.</string>
+    <string name="no_search_results">نتیجه‌ای یافت نشد</string>
+
+    <string name="copy">کپی</string>
+    <string name="delete">حذف</string>
+    <string name="pin">سنجاق</string>
+    <string name="unpin">برداشتن سنجاق</string>
+    <string name="copied_toast">در کلیپ‌بورد کپی شد</string>
+    <string name="saved_toast">ذخیره شد</string>
+    <string name="pasted_empty_toast">کلیپ‌بورد خالی است</string>
+
+    <string name="settings">تنظیمات</string>
+    <string name="language">زبان</string>
+    <string name="english">English</string>
+    <string name="persian">فارسی</string>
+    <string name="appearance">ظاهر برنامه</string>
+    <string name="light_mode">روشن</string>
+    <string name="dark_mode">تاریک</string>
+    <string name="system_default">سیستم</string>
+    <string name="export_data">خروجی گرفتن از داده‌ها</string>
+    <string name="export_as_txt">خروجی به‌صورت .txt</string>
+    <string name="export_as_json">خروجی به‌صورت .json</string>
+    <string name="export_success">خروجی با موفقیت ذخیره شد</string>
+    <string name="export_failed">خروجی گرفتن ناموفق بود</string>
+    <string name="export_empty">موردی برای خروجی گرفتن وجود ندارد</string>
+    <string name="delete_all_data">حذف همه داده‌ها</string>
+    <string name="delete_all_confirm_title">همه داده‌ها حذف شوند؟</string>
+    <string name="delete_all_confirm_body">این کار همه موارد ذخیره‌شده کلیپ‌بورد را برای همیشه حذف می‌کند. این عملیات قابل بازگشت نیست.</string>
+    <string name="cancel">انصراف</string>
+    <string name="delete_all_confirm_action">حذف همه</string>
+    <string name="about_kaivo">درباره KAIVO</string>
+    <string name="about_body">KAIVO یک مدیریت‌کننده کلیپ‌بورد ساده و خصوصی است. این برنامه هرگز کلیپ‌بورد شما را در پس‌زمینه پایش نمی‌کند، هیچ سرویس پس‌زمینه‌ای اجرا نمی‌کند و هیچ داده‌ای را به جایی ارسال نمی‌کند. همه‌چیز روی همین دستگاه باقی می‌ماند.</string>
+    <string name="version">نسخه ۱.۰</string>
+    <string name="back">بازگشت</string>
+    <string name="delete_item_confirm_title">این مورد حذف شود؟</string>
+    <string name="delete_item_confirm_body">این مورد ذخیره‌شده کلیپ‌بورد برای همیشه حذف خواهد شد.</string>
+</resources>
